@@ -3,7 +3,7 @@
 read -p "Enter the base of the triangle : " n
 read -p "Enter the position of the element when divided by 10 : " pos
 declare -i y=1
-declare -i z=0
+declare -i z=-1
 declare -i end=0
 declare -i start=0
 
