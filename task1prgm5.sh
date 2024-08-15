@@ -1,7 +1,8 @@
 #!/bin/bash
 
 read -p "Enter the base of the triangle : " n
-read -p "Enter the position of the element when divided by 10 : " pos
+#read -p "Enter the position of the element when divided by 10 : " pos
+pos=1
 declare -i y=1
 declare -i z=-1
 declare -i end=0
