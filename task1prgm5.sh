@@ -13,7 +13,7 @@ do
 	start=z+1 # start is the number value at the start of the line
 	for j in $(seq $start $end)
 	do	
-		if [[ $((j/10)) > 0 ]] # if j is greater than 10
+		if [[ $((j/10)) > 0 ]] # if j is greater than 10, we can get the xth position
 		then
 			echo -n $(( (j/(10**($pos-1)))%10 )) #getting the xth position by removing the number before the xth position and using modulus function to get the number
 		else
